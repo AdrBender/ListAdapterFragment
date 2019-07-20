@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">List Adapter Fragment</string>
+	<string name="fragment_name">Meu Fragment</string>
+	
+    <string name="digite_algo">Oi, digite algo!</string>
+	<string name="botao_adicionar">Adicionar!</string>
+	
+	<string name="item1">fragment</string>
+	<string name="item2">item_2</string>
+	<string name="item3">item_3</string>
+	
+	<string name="heading_list">Lista</string>
+    <string name="heading_my_posts">Posts</string>
+
+</resources>

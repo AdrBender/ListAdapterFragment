@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:id="@+id/relLayout"
+	android:background="@color/white">
+	
+	<include layout="@layout/toolbar"/>
+
+	<Button
+		android:id="@+id/button1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="70dp"
+		android:layout_centerHorizontal="true"
+		android:text="Fragment 1"
+		android:onClick="onClick"/>
+
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/button1"
+		android:text="Fragment 2"
+		android:onClick="onClick"/>
+
+	<fragment
+		android:id="@+id/fragment"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_centerHorizontal="true"
+		android:layout_below="@id/button2"
+		android:layout_marginTop="10dp"
+		android:name="com.adriano.listadapterfragment.FragmentActivity1"
+		tools:layout="@layout/activity_fragment1"/>
+
+</RelativeLayout>
+
